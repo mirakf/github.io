@@ -4,6 +4,7 @@ paginate = 5
 theme = "PaperMod"
 
 enableRobotsTXT = true
+enableEmoji = true
 buildDrafts = false
 buildFuture = false
 buildExpired = false
@@ -15,7 +16,7 @@ buildExpired = false
 [params]
   env = "production"
   title = "Mira Kelly-Fair"
-  description = "PhD Candidate | Biogeography | Boston University"
+  description = "PhD Candidate | Biogeographer | NSF-Strong Coasts Fellow"
   author = "Mira Kelly-Fair"
 
   defaultTheme = "auto"
@@ -30,27 +31,28 @@ buildExpired = false
   [params.profileMode]
     enabled = true
     title = "Mira Kelly-Fair"
-    subtitle = "PhD Candidate | Biogeography | Boston University"
-    imageUrl = "img/profile.jpg"
+    subtitle = "PhD Candidate | Biogeographer | NSF-Strong Coasts Fellow | Boston University<br>Mapping ecosystems from ridge to reef, one year at a time."
+    imageUrl = "headshot2.jpg"
     imageWidth = 150
     imageHeight = 150
     imageTitle = "Mira Kelly-Fair"
 
     [[params.profileMode.buttons]]
-      name = "📄 Download CV"
-      url = "/cv.pdf"
+      name = "🌍 Belize Ecosystem Atlas"
+      url = "/belize-ecosystem-atlas/"
 
     [[params.profileMode.buttons]]
-      name = "🌍 GEE App -- beta"
-      url = "https://ee-mirakf-s25.projects.earthengine.app/view/belize-ecosystems"
+      name = "📄 Publications"
+      url = "/publications/"
 
     [[params.profileMode.buttons]]
-      name = "🐦 eBird Profile"
-      url = "https://ebird.org/profile/Mzg4NDUwNA"
+      name = "💼 Work With Me"
+      url = "/workwithme/"
 
-    [[params.profileMode.buttons]]
-      name = "🔍 Google Scholar"
-      url = "https://scholar.google.com/citations?user=dpoMrD4AAAAJ&hl=en&oi=ao"
+  [[params.socialIcons]]
+    name = "github"
+    title = "GitHub"
+    url = "https://github.com/mirakf"
 
   [[params.socialIcons]]
     name = "linkedin"
@@ -61,6 +63,11 @@ buildExpired = false
     name = "email"
     title = "Email Me"
     url = "mailto:mirakf@bu.edu"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
 
 [[menu.main]]
   identifier = "about"
@@ -75,30 +82,25 @@ buildExpired = false
   weight = 20
 
 [[menu.main]]
-  identifier = "posts"
-  name = "Posts"
-  url = "/posts/"
+  identifier = "atlas"
+  name = "Belize Ecosystem Atlas 🌍"
+  url = "/belize-ecosystem-atlas/"
   weight = 30
 
 [[menu.main]]
-  identifier = "bea"
-  name = "Belize Ecosystem Atlas"
-  url = "/belize-ecosystem-atlas/"
+  identifier = "fieldnotes"
+  name = "Field Notes"
+  url = "/posts/"
   weight = 40
 
 [[menu.main]]
-  identifier = "hire me"
-  name = "Hire Me!"
+  identifier = "workwithme"
+  name = "Work With Me"
   url = "/opportunities/"
-  weight = 60
+  weight = 50
 
 [[menu.main]]
   identifier = "cv"
   name = "CV"
   url = "/cv.pdf"
-  weight = 50
-
-[markup]
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe = true
+  weight = 60

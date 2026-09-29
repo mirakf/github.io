@@ -5,7 +5,7 @@ url: "/about"
 summary: "About Me"
 ---
 
-<img src="/img/profile.jpg" alt="Mira Kelly-Fair" style="width:200px; 
+<img src="/aboutme3.jpg" alt="Mira Kelly-Fair" style="width:200px; 
 border-radius: 50%; display: block; margin: 0 auto 20px auto;">
 
 ## 👋 Hi, I'm Mira!

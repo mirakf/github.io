@@ -5,8 +5,7 @@ url: "/belize-ecosystem-atlas"
 summary: "An annually updatable open ecosystem mapping framework for Belize"
 ---
 
-# The Belize Ecosystem Atlas
-### An Annually Updatable Open Ecosystem Mapping Framework
+## An Annually Updatable Open Ecosystem Mapping Framework
 
 Belize holds some of the most biodiverse and ecologically critical 
 landscapes in the Western Hemisphere — spanning submontane pine forests, 
@@ -76,7 +75,7 @@ years, zoom into specific regions, and visualize how Belize's landscapes
 have shifted over more than a decade.
 
 <div style="text-align:center; margin:30px 0;">
-  <a href="https://your-gee-app-link.earthengine.app" 
+  <a href="https://ee-mirakf-s25.projects.earthengine.app/view/belize-ecosystems" 
   style="background:#2d6a4f; color:white; padding:14px 32px; 
   border-radius:6px; text-decoration:none; font-size:1.1em; 
   font-weight:bold;">🌍 Launch Belize EcoDynamics Explorer</a>
@@ -221,6 +220,6 @@ post-classification adjustments that pushed overall accuracy to 87.3%.
 - 💻 Explore the full codebase on 
   [GitHub](https://github.com/yourusername)
 - 🌍 Explore the data interactively on 
-  [Belize EcoDynamics Explorer](https://your-gee-app-link.earthengine.app)
+  [Belize EcoDynamics Explorer](https://ee-mirakf-s25.projects.earthengine.app/view/belize-ecosystems)
 - 📬 Questions, collaborations, or data requests: 
   [mirakf@bu.edu](mailto:mirakf@bu.edu)
