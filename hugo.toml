@@ -1,0 +1,104 @@
+baseURL = "https://mirakf.github.io/"
+title = "Mira Kelly-Fair"
+paginate = 5
+theme = "PaperMod"
+
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+
+[minify]
+  disableXML = true
+  minifyOutput = true
+
+[params]
+  env = "production"
+  title = "Mira Kelly-Fair"
+  description = "PhD Candidate | Biogeography | Boston University"
+  author = "Mira Kelly-Fair"
+
+  defaultTheme = "auto"
+  disableThemeToggle = false
+
+  ShowReadingTime = false
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+
+  [params.profileMode]
+    enabled = true
+    title = "Mira Kelly-Fair"
+    subtitle = "PhD Candidate | Biogeography | Boston University"
+    imageUrl = "img/profile.jpg"
+    imageWidth = 150
+    imageHeight = 150
+    imageTitle = "Mira Kelly-Fair"
+
+    [[params.profileMode.buttons]]
+      name = "📄 Download CV"
+      url = "/cv.pdf"
+
+    [[params.profileMode.buttons]]
+      name = "🌍 GEE App -- beta"
+      url = "https://ee-mirakf-s25.projects.earthengine.app/view/belize-ecosystems"
+
+    [[params.profileMode.buttons]]
+      name = "🐦 eBird Profile"
+      url = "https://ebird.org/profile/Mzg4NDUwNA"
+
+    [[params.profileMode.buttons]]
+      name = "🔍 Google Scholar"
+      url = "https://scholar.google.com/citations?user=dpoMrD4AAAAJ&hl=en&oi=ao"
+
+  [[params.socialIcons]]
+    name = "linkedin"
+    title = "LinkedIn"
+    url = "https://www.linkedin.com/in/mirakellyfair/"
+
+  [[params.socialIcons]]
+    name = "email"
+    title = "Email Me"
+    url = "mailto:mirakf@bu.edu"
+
+[[menu.main]]
+  identifier = "about"
+  name = "About"
+  url = "/about/"
+  weight = 10
+
+[[menu.main]]
+  identifier = "publications"
+  name = "Publications"
+  url = "/publications/"
+  weight = 20
+
+[[menu.main]]
+  identifier = "posts"
+  name = "Posts"
+  url = "/posts/"
+  weight = 30
+
+[[menu.main]]
+  identifier = "bea"
+  name = "Belize Ecosystem Atlas"
+  url = "/belize-ecosystem-atlas/"
+  weight = 40
+
+[[menu.main]]
+  identifier = "hire me"
+  name = "Hire Me!"
+  url = "/opportunities/"
+  weight = 60
+
+[[menu.main]]
+  identifier = "cv"
+  name = "CV"
+  url = "/cv.pdf"
+  weight = 50
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
