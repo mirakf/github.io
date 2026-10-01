@@ -104,3 +104,21 @@ buildExpired = false
   name = "CV"
   url = "/cv.pdf"
   weight = 60
+
+# Add under [params]:
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowToc = true
+  ShowRssButtonInSectionTermList = true
+
+# Add taxonomy for tags:
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
+# Add pagination for posts:
+[outputs]
+  home = ["HTML", "RSS", "JSON"]

@@ -1,36 +1,26 @@
 ---
 title: "Mira Kelly-Fair"
 layout: "home"
+ShowProfileMode: true
+
 ---
 
-<div style="display:flex; gap:20px; margin:30px 0; flex-wrap:wrap; 
-justify-content:center;">
+## 🔬 Currently Working On
 
-  <div style="background:#f0f7f0; border-radius:8px; padding:20px 30px; 
-  text-align:center; flex:1; min-width:120px;">
-    <div style="font-size:2em; font-weight:bold; color:#2d6a4f;">11</div>
-    <div style="font-size:0.9em;">Years of Ecosystem Data</div>
-  </div>
+<div style="background:#f9f9f9; border-radius:8px; padding:20px 30px; 
+margin:20px 0;">
 
-  <div style="background:#f0f7f0; border-radius:8px; padding:20px 30px; 
-  text-align:center; flex:1; min-width:120px;">
-    <div style="font-size:2em; font-weight:bold; color:#2d6a4f;">27</div>
-    <div style="font-size:0.9em;">Ecosystem Types Mapped</div>
-  </div>
+- 🎓 Actively on the **academic job market** for faculty positions 
+  beginning Fall 2027
+- 🌿 Adding **ecosystem service layers** to the Belize Ecosystem Atlas 
+  including carbon storage, coastal protection, and biodiversity support
+- 🌍 Launching the **Belize EcoServices Portal** — an interactive GEE 
+  application for exploring ecosystem service distributions across Belize
 
-  <div style="background:#f0f7f0; border-radius:8px; padding:20px 30px; 
-  text-align:center; flex:1; min-width:120px;">
-    <div style="font-size:2em; font-weight:bold; color:#2d6a4f;">87%</div>
-    <div style="font-size:0.9em;">Classification Accuracy</div>
-  </div>
-
-  <div style="background:#f0f7f0; border-radius:8px; padding:20px 30px; 
-  text-align:center; flex:1; min-width:120px;">
-    <div style="font-size:2em; font-weight:bold; color:#2d6a4f;">6</div>
-    <div style="font-size:0.9em;">Peer-Reviewed Publications</div>
-  </div>
 
 </div>
+
+---
 
 ---
 
@@ -53,7 +43,7 @@ justify-content:center;">
   <div style="background:#ffffff; border:1px solid #e0e0e0; 
   border-radius:8px; padding:20px; flex:1; min-width:250px;">
     <div style="font-size:1.5em; margin-bottom:10px;">📄</div>
-    <strong>Mangrove Ecosystem Service Valuation</strong>
+    <strong>Latest Publication</strong>
     <p style="font-size:0.9em; margin-top:8px;">A bibliometric analysis 
     of how mangrove ecosystem services have been studied and valued 
     across the Caribbean and Gulf of Mexico — and where the critical 
@@ -76,25 +66,7 @@ justify-content:center;">
 
 </div>
 
----
 
-## 🔬 Currently Working On
-
-<div style="background:#f9f9f9; border-radius:8px; padding:20px 30px; 
-margin:20px 0;">
-
-- 🌿 Adding **ecosystem service layers** to the Belize Ecosystem Atlas 
-  including carbon storage, coastal protection, and biodiversity support
-- 🌍 Launching the **Belize EcoServices Portal** — an interactive GEE 
-  application for exploring ecosystem service distributions across Belize
-- 📖 Developing a **popular science book** on ecosystem services and 
-  what we stand to lose as the landscapes that provide them disappear
-- 🎓 Actively on the **academic job market** for faculty positions 
-  beginning Fall 2027
-
-</div>
-
----
 
 ## 🐦 Beyond The Data
 
@@ -107,6 +79,8 @@ of the natural world. You can follow my sightings on
 [eBird](https://ebird.org/profile/yourID).
 
 ---
+
+
 
 <div style="text-align:center; margin:40px 0;">
   <p style="font-size:1.1em;">Interested in collaborating, hiring, 

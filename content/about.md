@@ -5,13 +5,13 @@ url: "/about"
 summary: "About Me"
 ---
 
-<img src="/aboutme3.jpg" alt="Mira Kelly-Fair" style="width:200px; 
-border-radius: 50%; display: block; margin: 0 auto 20px auto;">
+
 
 ## 👋 Hi, I'm Mira!
 
 **Ecosystems are disappearing faster than we can map them... and the 
 services they provide to people are disappearing with them.**
+
 
 As a PhD Candidate in the Department of Earth and Environment at Boston 
 University, my goal is to comprehend what we have before we lose it. I am 
@@ -28,6 +28,10 @@ too late.
 
 My PhD is supported by the [**NSF-Strong Coasts Grant**](https://www.facebook.com/StrongCoastsCoPe/), reflecting 
 the broader coastal resilience context of my work in Belize.
+
+<img src="/aboutme3.jpg" alt="Mira Kelly-Fair" style="width:200px; 
+border-radius: 50%; display: block; margin: 0 auto 20px auto;">
+
 
 ---
 

@@ -6,7 +6,55 @@
     <description>Recent content on Mira Kelly-Fair</description>
     <generator>Hugo</generator>
     <language>en</language>
+    <lastBuildDate>Thu, 24 Sep 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Knitting the Climate: 2026 in Progress</title>
+      <link>http://localhost:1313/posts/knitting-the-climate-2026/</link>
+      <pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/knitting-the-climate-2026/</guid>
+      <description>A running record of 2026 temperatures, one row at a time</description>
+    </item>
+    <item>
+      <title>Reading Notes: The Sixth Extinction</title>
+      <link>http://localhost:1313/posts/sixth-extinction-review/</link>
+      <pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/sixth-extinction-review/</guid>
+      <description>A biogeographer reads Elizabeth Kolbert</description>
+    </item>
+    <item>
+      <title>Research Update: [Title Here]</title>
+      <link>http://localhost:1313/posts/first-research-update/</link>
+      <pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/first-research-update/</guid>
+      <description>Brief description of this update</description>
+    </item>
+    <item>
+      <title>Sightings Report: [Location, Date]</title>
+      <link>http://localhost:1313/posts/birding-update/</link>
+      <pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/birding-update/</guid>
+      <description>Recent sightings from [location]</description>
+    </item>
+    <item>
+      <title>Reflections from COP29</title>
+      <link>http://localhost:1313/posts/cop29-reflection/</link>
+      <pubDate>Fri, 15 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/cop29-reflection/</guid>
+      <description>Reflections on presenting at COP29 in Baku, Azerbaijan</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/archives/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/archives/</guid>
+      <description>&lt;p&gt;-&amp;ndash;&lt;/p&gt;
+&lt;p&gt;title: &amp;ldquo;Archive&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;layout: &amp;ldquo;archives&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;url: &amp;ldquo;/archives/&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;summary: &amp;ldquo;archives&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;-&amp;ndash;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>About Me</title>
       <link>http://localhost:1313/about/</link>
@@ -15,11 +63,25 @@
       <description>About Me</description>
     </item>
     <item>
+      <title>Privacy Policy</title>
+      <link>http://localhost:1313/privacy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/privacy/</guid>
+      <description>Privacy policy for mirakf.github.io</description>
+    </item>
+    <item>
       <title>Publications &amp; Presentations</title>
       <link>http://localhost:1313/publications/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/publications/</guid>
       <description>Publications and Presentations by Mira Kelly-Fair</description>
+    </item>
+    <item>
+      <title>Thank You!</title>
+      <link>http://localhost:1313/thank-you/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/thank-you/</guid>
+      <description>Data request received</description>
     </item>
     <item>
       <title>The Belize Ecosystem Atlas</title>

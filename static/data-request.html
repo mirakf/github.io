@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Request Data Access | Mira Kelly-Fair</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 
+      "Segoe UI", Roboto, sans-serif;
+      max-width: 750px;
+      margin: 0 auto;
+      padding: 40px 20px;
+      color: #333;
+      line-height: 1.6;
+    }
+    h1 { color: #2d6a4f; }
+    h2 { color: #2d6a4f; border-bottom: 2px solid #f0f7f0; 
+    padding-bottom: 8px; }
+    label { display: block; font-weight: bold; 
+    margin-bottom: 5px; margin-top: 15px; }
+    input[type="text"],
+    input[type="email"],
+    select,
+    textarea {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 1em;
+      box-sizing: border-box;
+    }
+    textarea { resize: vertical; }
+    .checkbox-group {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 8px;
+    }
+    .checkbox-group label {
+      font-weight: normal;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+    .agreement-box {
+      background: #f0f7f0;
+      border-radius: 8px;
+      padding: 20px;
+      margin: 20px 0;
+    }
+    .subscribe-box {
+      background: #f9f9f9;
+      border-radius: 8px;
+      padding: 20px;
+      margin: 20px 0;
+    }
+    .agreement-box p,
+    .subscribe-box p {
+      font-weight: bold;
+      margin-bottom: 15px;
+    }
+    .check-item {
+      display: flex;
+      gap: 10px;
+      align-items: flex-start;
+      margin-bottom: 12px;
+      font-weight: normal;
+    }
+    .check-item input {
+      width: auto;
+      margin-top: 4px;
+    }
+    .submit-btn {
+      display: block;
+      width: 100%;
+      background: #2d6a4f;
+      color: white;
+      padding: 14px 40px;
+      border: none;
+      border-radius: 6px;
+      font-size: 1.1em;
+      font-weight: bold;
+      cursor: pointer;
+      margin-top: 30px;
+    }
+    .submit-btn:hover { background: #1f4d38; }
+    .privacy-note {
+      font-size: 0.85em;
+      color: #666;
+      margin-top: 30px;
+    }
+    .back-link {
+      display: inline-block;
+      margin-bottom: 30px;
+      color: #2d6a4f;
+      text-decoration: none;
+    }
+    .back-link:hover { text-decoration: underline; }
+    hr { border: none; border-top: 1px solid #e0e0e0; margin: 30px 0; }
+    a { color: #2d6a4f; }
+  </style>
+</head>
+<body>
+
+  <a href="/belize-ecosystem-atlas/" class="back-link">
+  ← Back to the Belize Ecosystem Atlas</a>
+
+  <h1>📥 Request Access to the Belize Ecosystem Atlas</h1>
+
+  <p>Thank you for your interest in the Belize Ecosystem Atlas! 
+  All ecosystem maps are freely available for research, conservation 
+  planning, and policy use. To help us track data usage and ensure 
+  proper citation, please complete the short form below.</p>
+
+  <p><strong>You will receive download links via email within 
+  48 hours.</strong></p>
+
+  <hr>
+
+  <form action="https://formspree.io/f/XXXXXXXX" method="POST">
+
+    <label for="name">Full Name *</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="institution">Institution or Organization *</label>
+    <input type="text" id="institution" name="institution" required>
+
+    <label for="email">Email Address *</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="country">Country *</label>
+    <input type="text" id="country" name="country" required>
+
+    <label>Which data years are you requesting? *</label>
+    <div class="checkbox-group">
+      <label><input type="checkbox" name="years" value="all"> 
+      All Years</label>
+      <label><input type="checkbox" name="years" value="2026"> 
+      2026</label>
+      <label><input type="checkbox" name="years" value="2025"> 
+      2025</label>
+      <label><input type="checkbox" name="years" value="2024"> 
+      2024</label>
+      <label><input type="checkbox" name="years" value="2023"> 
+      2023</label>
+      <label><input type="checkbox" name="years" value="2022"> 
+      2022</label>
+      <label><input type="checkbox" name="years" value="2021"> 
+      2021</label>
+      <label><input type="checkbox" name="years" value="2020"> 
+      2020</label>
+      <label><input type="checkbox" name="years" value="2019"> 
+      2019</label>
+      <label><input type="checkbox" name="years" value="2018"> 
+      2018</label>
+      <label><input type="checkbox" name="years" value="2017"> 
+      2017</label>
+      <label><input type="checkbox" name="years" value="2016"> 
+      2016</label>
+      <label><input type="checkbox" name="years" value="2015"> 
+      2015</label>
+    </div>
+
+    <label>Preferred Format *</label>
+    <div class="checkbox-group">
+      <label><input type="checkbox" name="format" value="all"> 
+      All Formats</label>
+      <label><input type="checkbox" name="format" value="GeoTIFF"> 
+      GeoTIFF (Raster)</label>
+      <label><input type="checkbox" name="format" value="Shapefile"> 
+      Shapefile</label>
+      <label><input type="checkbox" name="format" value="KMZ"> 
+      KMZ</label>
+      <label><input type="checkbox" name="format" value="PDF"> 
+      High Quality PDF</label>
+      <label><input type="checkbox" name="format" value="GeoJSON"> 
+      GeoJSON</label>
+    </div>
+
+    <label for="intended_use">Intended Use *</label>
+    <select id="intended_use" name="intended_use" required>
+      <option value="">Please select...</option>
+      <option value="Academic Research">Academic Research</option>
+      <option value="Conservation Planning">
+      Conservation Planning</option>
+      <option value="Government Policy">
+      Government or Policy Use</option>
+      <option value="NGO Work">NGO or Non-Profit Work</option>
+      <option value="Education">Education</option>
+      <option value="Journalism">
+      Journalism or Science Communication</option>
+      <option value="Other">Other</option>
+    </select>
+
+    <label for="description">
+    Please briefly describe your intended use *</label>
+    <textarea id="description" name="description" 
+    required rows="4"></textarea>
+
+    <label for="referral">
+    How did you find the Belize Ecosystem Atlas?</label>
+    <select id="referral" name="referral">
+      <option value="">Please select...</option>
+      <option value="Publication">Academic Publication</option>
+      <option value="Colleague">Colleague or Collaborator</option>
+      <option value="Search Engine">Search Engine</option>
+      <option value="Social Media">Social Media</option>
+      <option value="Conference">Conference or Presentation</option>
+      <option value="Other">Other</option>
+    </select>
+
+    <hr>
+
+    <div class="agreement-box">
+      <p>📝 Data Use Agreement — Required</p>
+
+      <div class="check-item">
+        <input type="checkbox" name="cite_agreement" required>
+        <span>I agree to cite the Belize Ecosystem Atlas 
+        (Kelly-Fair, M., Gopal, S., & Koch, M., in prep) in any 
+        publications, reports, or presentations using this 
+        data.</span>
+      </div>
+
+      <div class="check-item">
+        <input type="checkbox" name="notify_agreement" required>
+        <span>I agree to notify the corresponding author 
+        (<a href="mailto:mirakf@bu.edu">mirakf@bu.edu</a>) when 
+        this data is used in a published work.</span>
+      </div>
+
+      <div class="check-item">
+        <input type="checkbox" name="terms_agreement" required>
+        <span>I confirm that the information I have provided is 
+        accurate and that I will use this data in accordance with 
+        its intended open-access purpose.</span>
+      </div>
+    </div>
+
+    <div class="subscribe-box">
+      <p>📬 Stay Connected — Optional</p>
+
+      <div class="check-item">
+        <input type="checkbox" name="subscribe_data">
+        <span>Notify me when new annual data layers or updated 
+        maps are released</span>
+      </div>
+
+      <div class="check-item">
+        <input type="checkbox" name="subscribe_fieldnotes">
+        <span>Subscribe me to Field Notes — research updates, 
+        birding, and science communication from 
+        Mira Kelly-Fair</span>
+      </div>
+
+      <div class="check-item">
+        <input type="checkbox" name="subscribe_portal">
+        <span>Notify me when the Belize EcoServices Portal 
+        launches</span>
+      </div>
+    </div>
+
+    <input type="hidden" name="_next" 
+    value="https://mirakf.github.io/thank-you/">
+    <input type="hidden" name="_subject" 
+    value="New Belize Ecosystem Atlas Data Request">
+
+    <button type="submit" class="submit-btn">
+    📥 Submit Data Request</button>
+
+  </form>
+
+  <p class="privacy-note">🔒 <strong>Privacy:</strong> Your 
+  information will only be used to process your data request and 
+  send communications you have opted into. We will never share your 
+  information with third parties. See our 
+  <a href="/privacy">privacy policy</a> for more details.</p>
+
+</body>
+</html>

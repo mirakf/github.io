@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Field Notes on Mira Kelly-Fair</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Field Notes on Mira Kelly-Fair</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 24 Sep 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Knitting the Climate: 2026 in Progress</title>
+      <link>http://localhost:1313/posts/knitting-the-climate-2026/</link>
+      <pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/knitting-the-climate-2026/</guid>
+      <description>A running record of 2026 temperatures, one row at a time</description>
+    </item>
+    <item>
+      <title>Reading Notes: The Sixth Extinction</title>
+      <link>http://localhost:1313/posts/sixth-extinction-review/</link>
+      <pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/sixth-extinction-review/</guid>
+      <description>A biogeographer reads Elizabeth Kolbert</description>
+    </item>
+    <item>
+      <title>Research Update: [Title Here]</title>
+      <link>http://localhost:1313/posts/first-research-update/</link>
+      <pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/first-research-update/</guid>
+      <description>Brief description of this update</description>
+    </item>
+    <item>
+      <title>Sightings Report: [Location, Date]</title>
+      <link>http://localhost:1313/posts/birding-update/</link>
+      <pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/birding-update/</guid>
+      <description>Recent sightings from [location]</description>
+    </item>
+    <item>
+      <title>Reflections from COP29</title>
+      <link>http://localhost:1313/posts/cop29-reflection/</link>
+      <pubDate>Fri, 15 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/cop29-reflection/</guid>
+      <description>Reflections on presenting at COP29 in Baku, Azerbaijan</description>
+    </item>
+  </channel>
+</rss>

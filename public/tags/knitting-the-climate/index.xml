@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Knitting the Climate on Mira Kelly-Fair</title>
+    <link>http://localhost:1313/tags/knitting-the-climate/</link>
+    <description>Recent content in Knitting the Climate on Mira Kelly-Fair</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 24 Sep 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/knitting-the-climate/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Knitting the Climate: 2026 in Progress</title>
+      <link>http://localhost:1313/posts/knitting-the-climate-2026/</link>
+      <pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/knitting-the-climate-2026/</guid>
+      <description>A running record of 2026 temperatures, one row at a time</description>
+    </item>
+  </channel>
+</rss>

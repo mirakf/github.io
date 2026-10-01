@@ -1,0 +1,20 @@
+{{- define "main" }}
+
+<div style="display:flex; gap:40px; flex-wrap:wrap; 
+align-items:flex-start; margin-top:20px;">
+
+  {{/* LEFT COLUMN - Profile */}}
+  <div style="flex:1; min-width:280px; max-width:400px;">
+    {{- if .Site.Params.profileMode.enabled }}
+    {{- partial "index_profile.html" . }}
+    {{- end }}
+  </div>
+
+  {{/* RIGHT COLUMN - Content from _index.md */}}
+  <div style="flex:2; min-width:300px;" class="post-content">
+    {{ .Content }}
+  </div>
+
+</div>
+
+{{- end }}

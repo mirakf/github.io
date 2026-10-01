@@ -86,7 +86,7 @@ no download or installation required.*
 
 ---
 
-*📸 Screenshot placeholder — add a screenshot of Belize EcoDynamics Explorer here*
+<img src="/gee_preview.png" alt="Belize EcoDynamics Explorer Preview">
 
 ---
 
@@ -112,31 +112,38 @@ interested in collaborating on or contributing to these layers,
 
 ---
 
-## 📥 Download the Data
+## 📥 Access the Data
 
-All ecosystem maps from the Belize Ecosystem Atlas are freely available 
-for download in both **raster** and **shapefile** formats. Data are 
-provided openly for research, conservation planning, and policy use. 
-Please cite appropriately when using this data *(citation below)*.
+All ecosystem maps are freely available for research, conservation 
+planning, and policy use. To help us track data usage and ensure 
+proper citation, please submit a short data request form.
 
-| Year | Raster | Shapefile | Overall Accuracy |
-|------|--------|-----------|-----------------|
-| 2015 | [📥 Download](#) | [📥 Download](#) | 82.0% |
-| 2016 | [📥 Download](#) | [📥 Download](#) | 82.0% |
-| 2017 | [📥 Download](#) | [📥 Download](#) | 82.0% |
-| 2018 | [📥 Download](#) | [📥 Download](#) | 82.0% |
-| 2019 | [📥 Download](#) | [📥 Download](#) | 82.0% |
-| 2020 | [📥 Download](#) | [📥 Download](#) | 82.0% |
-| 2021 | [📥 Download](#) | [📥 Download](#) | 82.0% |
-| 2022 | [📥 Download](#) | [📥 Download](#) | 82.0% |
-| 2023 | [📥 Download](#) | [📥 Download](#) | 82.0% |
-| 2024 | [📥 Download](#) | [📥 Download](#) | 82.0% |
-| 2025 | [📥 Download](#) | [📥 Download](#) | 82.0% |
-| 2026 | [📥 Download](#) | [📥 Download](#) | 87.3% |
+**You will receive download links via email within 48 hours.**
 
-*Note: 2026 accuracy reflects post-classification adjustments including 
-separation of terrestrial and marine classes using the Global Human 
-Settlement Layer (GHSL).*
+<a href="/data-request.html" 
+style="background:#2d6a4f; color:white; padding:14px 32px; 
+border-radius:6px; text-decoration:none; font-size:1.1em; 
+font-weight:bold;">📥 Request Data Access</a>
+
+### Available Data
+
+All years are available in the following formats:
+**GeoTIFF (Raster) · Shapefile · KMZ · High Quality PDF · GeoJSON**
+
+| Year |
+|------|
+| 2026 |
+| 2025 |
+| 2024 |
+| 2023 |
+| 2022 |
+| 2021 |
+| 2020 |
+| 2019 |
+| 2018 |
+| 2017 |
+| 2016 |
+| 2015 |
 
 ---
 

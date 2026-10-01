@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Reading &amp; Reviews on Mira Kelly-Fair</title>
+    <link>http://localhost:1313/tags/reading--reviews/</link>
+    <description>Recent content in Reading &amp; Reviews on Mira Kelly-Fair</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 24 Sep 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/reading--reviews/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Reading Notes: The Sixth Extinction</title>
+      <link>http://localhost:1313/posts/sixth-extinction-review/</link>
+      <pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/sixth-extinction-review/</guid>
+      <description>A biogeographer reads Elizabeth Kolbert</description>
+    </item>
+  </channel>
+</rss>
