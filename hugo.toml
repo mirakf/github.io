@@ -2,6 +2,7 @@ baseURL = "https://mirakf.github.io/"
 title = "Mira Kelly-Fair"
 paginate = 5
 theme = "PaperMod"
+googleAnalytics= "G-JVHMSTNCF6"
 
 enableRobotsTXT = true
 enableEmoji = true
@@ -47,7 +48,7 @@ buildExpired = false
 
     [[params.profileMode.buttons]]
       name = "💼 Work With Me"
-      url = "/workwithme/"
+      url = "/opportunities/"
 
   [[params.socialIcons]]
     name = "github"

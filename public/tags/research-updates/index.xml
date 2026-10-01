@@ -15,5 +15,12 @@
       <guid>http://localhost:1313/posts/first-research-update/</guid>
       <description>Brief description of this update</description>
     </item>
+    <item>
+      <title>Research Update: Groundtruthing in Belize</title>
+      <link>http://localhost:1313/posts/groundtruth/</link>
+      <pubDate>Wed, 11 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/groundtruth/</guid>
+      <description>Brief description of this update</description>
+    </item>
   </channel>
 </rss>

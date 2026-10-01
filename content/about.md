@@ -53,7 +53,7 @@ ecosystems around Placencia, Belize. We travelled by boat through riparian fores
 submontane forests, and confirmed a dozen distinct forest types with 
 some of the best botanists and ecologists in the region.
 
-📸 [Read the full story and see photos →](/fieldwork)
+📸 [Read the full story and see photos →](/posts/groundtruth/)
 
 ---
 
